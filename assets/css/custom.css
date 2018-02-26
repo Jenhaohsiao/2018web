@@ -266,14 +266,6 @@ a:active {
     }
 }
 
-.about_img {
-    width: 30%;
-    max-width: 400px;
-    min-width: 160px;
-    padding: 10px 0 30px 0;
-}
-
-
 /* purposes section end*/
 
 
@@ -748,6 +740,27 @@ a:active {
     padding: 10px;
 }
 
+/* about section */
+
+#picture{
+    text-align: center;
+}
+
+#picture img{
+    width: 150px;
+
+    border-radius: 50%;
+}
+
+.about_section p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.about_open{
+    padding: 20px 10% 0 10%;
+}
 
 /* footer section */
 
