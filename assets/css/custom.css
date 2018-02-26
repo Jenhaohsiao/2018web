@@ -828,6 +828,18 @@ input[type=submit]:hover {
     font-family: 'Merienda', cursive;
 }
 
+@media screen and (max-width: 992px) {
+    .reference_container {
+        padding: 0;
+    }
+
+    .reference_container p {
+        font-size: 20px;
+    }
+    
+
+}
+
 #aram {
     padding: 0 50px 0 0;
 }
@@ -883,11 +895,13 @@ input[type=submit]:hover {
 
 .outLink {
     text-align: center;
+   
 }
 
 .outLink p {
     color: #336ea0;
     font-size: 40px;
+    display: inline-block;
 }
 
 .timeline-panel {
