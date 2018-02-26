@@ -1,28 +1,53 @@
 /* Global */
-.no_margin{
-    margin:0;
+
+.no_margin {
+    margin: 0;
 }
 
-h2{
+h1 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.5;
-    text-align:center;
+    text-align: center;
 }
 
-h3{
+h3 {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
-    text-align:center;
+    text-align: center;
 }
 
-h4{
+h4 {
     font-size: 15px;
     font-weight: 300;
     line-height: 1.5;
-    text-align:center;
+    text-align: center;
 }
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+}
+
 
 /* NavBar */
 
@@ -107,45 +132,60 @@ h4{
 
 /* contact section */
 
-.contact_style {
-    font-size: 45px;
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contact_container {
+    padding: 0 10% 30px 10%;
+}
+
+.contact_outlet {
+    border-radius: 5px;
+    background-color: #336ea0
+    ;
+    padding: 20px;
+}
+
+.contact_submit {
     text-align: center;
-    padding: 20px 15px 10px 15px;
-    color: #ffffff;
-    background-color: #0451a9;
 }
-
-@media screen and (max-width: 768px) {
-    .contact_style {
-        font-size: 35px;
-        padding: 10px 5px 5px 5px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .contact_style {
-        font-size: 25px;
-        padding: 10px 5px 5px 5px;
-    }
-}
-
-.contact_style a:link,
-a:visited {
-    color: #ffffff;
-}
-
-.contact_style a:hover,
-a:active {
-    color: #ffffffb8;
-}
-
-@media screen and (max-width: 768px) {
-    .circle {
-        height: 30px;
-        width: 30px;
-    }
-}
-
 
 /* contact end */
 
@@ -292,6 +332,7 @@ a:active {
     }
 }
 
+
 /* purposes section end*/
 
 
@@ -386,12 +427,10 @@ a:active {
 
 .float-left {
     float: left;
-    position: relative;
 }
 
 .float-right {
     float: right;
-    position: relative;
 }
 
 .project_info h2 {
@@ -767,29 +806,56 @@ a:active {
     padding: 10px;
 }
 
+
+/* reference section */
+
+#reference {
+    background-color: #336ea0;
+    padding: 30px 0;
+    margin: 30px 0 ;
+}
+
+.reference_container {
+    padding: 0 10%;
+}
+
+.reference_container p {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.7;
+    font-weight: 100;
+    padding: 40px;
+    font-family: 'Merienda', cursive;
+}
+
+#aram {
+    padding: 0 50px 0 0;
+}
+
+
 /* about section */
 
-#picture{
+#picture {
     text-align: center;
 }
 
-#picture img{
+#picture img {
     width: 150px;
-
     border-radius: 50%;
 }
 
-.about_section p{
+.about_section p {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
 }
 
-.about_open{
-    padding: 20px 10% 0 10%;;
+.about_open {
+    padding: 20px 13% 0 10%;
+    ;
 }
 
-.about_section h2{
+.about_section h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.5;
@@ -797,7 +863,7 @@ a:active {
     padding: 20px;
 }
 
-.about_section h3{
+.about_section h3 {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
@@ -805,7 +871,8 @@ a:active {
     padding: 10px;
     margin: 10px;
 }
-.about_section h4{
+
+.about_section h4 {
     font-size: 15px;
     font-weight: 300;
     line-height: 1.5;
@@ -814,30 +881,38 @@ a:active {
     margin: 10px;
 }
 
-.timeline-panel{
+.outLink {
+    text-align: center;
+}
+
+.outLink p {
+    color: #336ea0;
+    font-size: 40px;
+}
+
+.timeline-panel {
     margin: 20px 5%;
-
-    border:1px solid #cbcffa;
-}
-.timeline-panel-in{
-    border:10px solid #ffffff;
+    border: 1px solid #cbcffa;
 }
 
-
-.timeline-panel:hover{
-    background-color: #dcdfff;
+.timeline-panel-in {
+    border: 10px solid #ffffff;
 }
 
-.timeline-panel p{
-    font-size:15px;
+.timeline-panel:hover {
+    background-color: #336ea0;
+    color: #ffffff;
+}
+
+.timeline-panel p {
+    font-size: 15px;
     font-weight: 300;
 }
 
-.timeline_logo i{
-    font-size:30px;
-    color: #383c63;
+.timeline_logo i {
+    font-size: 30px;
+    color: #336ea0;
     padding: 40px 0 0 40px;
-
 }
 
 .timeline-heading {
@@ -848,8 +923,9 @@ a:active {
 .timeline-body {
     margin: 5px 0px;
 }
-.timeline-body li{
-    font-size:15px;
+
+.timeline-body li {
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -862,6 +938,7 @@ a:active {
 
 .footer {
     background-color: #336ea0;
+    padding: 30px 0;
 }
 
 .footer p {
@@ -869,4 +946,5 @@ a:active {
     font-size: 15px;
     padding: 20px 0 10px 0;
     font-weight: 300;
+    text-align: center;
 }
