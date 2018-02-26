@@ -278,134 +278,25 @@ a:active {
 
 
 /* Skill section */
-
-#skills {
-    text-align: center;
+.skill_container img{
+    max-width: 100px;
+    padding:30px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
-
-#skill_background {
-    background: url('../img/skills_red_bg.jpg');
-    min-height: 200px;
-    background-position: 50% 20%;
-    background-size: cover;
+.skill_container img:hover{
+    filter: none;
 }
-
-.skill_title {
-    line-height: 1.7;
-    padding: 10px 0 0 0;
-    color: #ffffff;
-    font-weight: 300;
-}
-
-.skill_title h1 {
-    font-weight: 300;
-    font-size: 50px;
-}
-
-#skills .icon {
-    height: 120px;
-    width: 120px;
-}
-
-#skills .icon_back {
-    height: 25px;
-    width: 25x;
-}
-
-#skills h2 {
-    color: #ffffff;
-    font-size: 30px;
-    margin: 10px 0 20px 0;
-    font-weight: 300;
-}
-
-#skills_All {
-    display: block;
-}
-
-#skills_Left {
-    display: none;
-}
-
-#skills_Right {
-    display: none;
-}
-
-#skills_Right .row,
-#skills_Left .row {
-    margin: 0 9%;
-}
-
-.showSkillDetail {
-    font-size: 30px;
-    width: auto;
-    text-align: center;
-    border: 0px solid rgba(255, 255, 255, 0);
-    color: #ffffff;
-    overflow: hidden;
-    border-collapse: collapse;
-    background-color: #f5b1048e;
-    border-radius: 20px;
-    text-align: left;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 18px;
-    animation-duration: 1s;
-    -webkit-animation-name: slideinLeft;
-    -moz-animation-name: slideinLeft;
-}
-
-@keyframes slideinLeft {
-    from {
-        padding-left: 70%;
-        width: 300%;
-    }
-    to {
-        padding-left: 9%+20px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .skill_title h1 {
-        font-size: 35px;
-    }
-    #skills .icon {
-        height: 90px;
-        width: 90px;
-    }
-    #skills h2 {
-        font-size: 20px;
-    }
-    .showSkillDetail {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .skill_title h1 {
-        font-size: 30px;
-    }
-    #skills .icon {
-        height: 70px;
-        width: 70px;
-    }
-    #skills h2 {
-        font-size: 15px;
-    }
-}
-
-
 /* Project section */
 
-#projects_secton_title {
+.section_title {
     background-color: #ffffff;
     min-height: 10px;
     background-position: 50% 20%;
     background-size: cover;
 }
 
-#projects_secton_title h1 {
+.section_title h1 {
     color: #000000;
     text-align: center;
     font-size: 50px;
@@ -413,11 +304,11 @@ a:active {
 }
 
 .each_project_container {
-    padding: 30px 0 30px 0;
+    padding: 50px 0 30px 0;
     position: relative;
 }
 
-each_project_container img{
+each_project_container img {
     display: block;
 }
 
@@ -452,23 +343,24 @@ each_project_container img{
 
 .project_background_info i {
     padding-right: 10px;
+    font-size: 12px;
 }
 
 .project_background_info li {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 100;
     padding: 10px 0 0 0;
     list-style-type: none;
 }
 
-.button_container{
+.button_container {
     padding-bottom: 10px;
 }
 
 .project_background_info button {
     border-radius: 10px;
-    background-color: rgb(244, 68, 49);
-    /* Green */
+    background-color: #f43838;
+    border: none;
     color: white;
     padding: 7px 32px;
     text-align: center;
@@ -485,42 +377,34 @@ each_project_container img{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
 .project_image {
     max-width: 100%;
     height: auto;
-    padding: 0 0 10px 0;
+    padding: 0 0 15px 0;
 }
 
-#project_image_left{
+#project_image_left {
     text-align: right;
 }
-@media screen and (max-width: 992px) {
 
+@media screen and (max-width: 992px) {
     .project_background_info h2 {
         font-size: 22px;
     }
-    
     .project_background_info p {
         font-size: 17px;
     }
-    
     .project_background_info ul {
         padding-left: 10px;
     }
-    
     .project_background_info i {
         padding-right: 12px;
     }
-    
     .project_background_info li {
         font-size: 15px;
         line-height: 1.1;
     }
-    
 }
-
 
 .slideshow-container {
     max-height: 400px;
@@ -585,7 +469,7 @@ each_project_container img{
 }
 
 @media screen and (max-width: 768px) {
-    #projects_secton_title h1 {
+    .section_title h1 {
         font-size: 35px;
     }
     .project_title {
@@ -601,7 +485,7 @@ each_project_container img{
 }
 
 @media screen and (max-width: 576px) {
-    #projects_secton_title h1 {
+    .section_title h1 {
         font-size: 30px;
     }
     .project_img {
