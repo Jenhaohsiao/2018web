@@ -1,3 +1,29 @@
+/* Global */
+.no_margin{
+    margin:0;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align:center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align:center;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align:center;
+}
+
 /* NavBar */
 
 .hover-cursor {
@@ -293,7 +319,7 @@ a:active {
 }
 
 .skill_container img {
-    max-width: 100px;
+    max-width: 90px;
     padding: 10px;
     -webkit-filter: grayscale(100%);
     /* Chrome, Safari, Opera */
@@ -374,7 +400,8 @@ a:active {
     padding: 0 0 0 10px;
     margin: 0;
     border-left: 6px solid #940000;
-    background-color: #faf4f4
+    background-color: #faf4f4;
+    text-align: left;
 }
 
 .project_info p {
@@ -571,7 +598,7 @@ a:active {
 }
 
 .appstore_btn {
-    width: 100px;
+    width: 115px;
     margin: 0 0 6px 0;
 }
 
@@ -759,8 +786,77 @@ a:active {
 }
 
 .about_open{
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 0 10%;;
 }
+
+.about_section h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+}
+
+.about_section h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+.about_section h4{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.timeline-panel{
+    margin: 20px 5%;
+
+    border:1px solid #cbcffa;
+}
+.timeline-panel-in{
+    border:10px solid #ffffff;
+}
+
+
+.timeline-panel:hover{
+    background-color: #dcdfff;
+}
+
+.timeline-panel p{
+    font-size:15px;
+    font-weight: 300;
+}
+
+.timeline_logo i{
+    font-size:30px;
+    color: #383c63;
+    padding: 40px 0 0 40px;
+
+}
+
+.timeline-heading {
+    border-bottom: 1px solid #cbcffa;
+    padding-bottom: 10px;
+}
+
+.timeline-body {
+    margin: 5px 0px;
+}
+.timeline-body li{
+    font-size:15px;
+    font-weight: 300;
+}
+
+.timeline-footer {
+    border-top: 1px solid #cbcffa;
+}
+
 
 /* footer section */
 
