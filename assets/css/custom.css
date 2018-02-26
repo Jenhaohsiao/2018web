@@ -113,15 +113,12 @@ a:active {
     color: #ffffffb8;
 }
 
-
-
 @media screen and (max-width: 768px) {
     .circle {
         height: 30px;
         width: 30px;
     }
 }
-
 
 
 /* contact end */
@@ -215,6 +212,17 @@ a:active {
     }
 }
 
+@media screen and (max-width: 500px) {
+    #hero_name {
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    #hero_text {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+}
+
 
 /* Hero section - end */
 
@@ -271,8 +279,8 @@ a:active {
 
 /* Skill section */
 
-.skill_section{
-    padding: 10px 0  30px 0;
+.skill_section {
+    padding: 10px 0 30px 0;
 }
 
 .skill_container {
@@ -288,6 +296,8 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .skill_container img {
@@ -322,6 +332,15 @@ a:active {
     100% {
         -webkit-filter: none;
         filter: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skill_container p {
+        font-size: 13px;
+    }
+    .skill_container img {
+        max-width: 80px;
     }
 }
 
