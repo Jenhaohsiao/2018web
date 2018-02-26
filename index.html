@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="assets/img/favicon2.ico"> -->
+    <title>Jen-Hao's Website 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- normalize CSS -->
+    <link href="assets/css/normalize.css" rel="stylesheet">
+
+    <!-- custom CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+    <!-- TyeKit Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/wli7vya.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="assets/js/custom.js">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Nav Bar ======================================= -->
+
+    <header class="site-header" role="banner">
+
+        <!-- Nav Bar -->
+        <div class="navbar-wrapper">
+            <div class="navbar navbar-fixed-top navbar_BG_default" id="navbar" role="navigation">
+                <div class="container navbar_container">
+                    <div class="topnav navbar_BG_default" id="myTopnav">
+                        <a onclick="navbar_mobile()" href="#TOP" ip="navMobile_top">TOP</a>
+                        <a onclick="navbar_mobile()" href="#Projects" ip="navMobile_project">PROJECTS</a>
+                        <a onclick="navbar_mobile()" href="#Skills" ip="navMobile_skill">SKILLS</a>
+                        <a onclick="navbar_mobile()" href="#About" ip="navMobile_about">ABOUT</a>
+                        <a href="javascript:void(0);" class="icon" onclick="navbar_mobile()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nav bar -wrapper -->
+
+    </header>
+
+
+    <!-- Hero ======================================= -->
+    <span id="Top"></span>
+
+    <section id="hero_background" data-type="background" data-speed="5">
+        <article>
+            <div class="container clearfix">
+                <div class="row">
+
+                    <div class="col-sm-5 ">
+                        <!-- (for tablets - screens equal to or greater than 768px wide)-->
+                    </div>
+
+                    <div class="col-sm-7 ">
+                        <div>
+                            <p id="hero_name">Jen-Hao Hsiao</p>
+                        </div>
+
+                        <div id="hero_text">
+                            <p>A Web Front-end and
+                                <br/>Mobile APPs Developer</p>
+                        </div>
+
+                    </div>
+                    <!-- class="col-sm-7 " end -->
+                </div>
+                <div class="circle" id="dot_hero">
+                </div>
+            </div>
+
+
+        </article>
+    </section>
+
+    <!-- Projects ======================================= -->
+
+    <span id="Projects"></span>
+    <section id="projects_secton_title" data-type="background" data-speed="5">
+        <article>
+            <div class="container clearfix">
+                <div class="row">
+
+                    <h1>PROJECTS</h1>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- Project-JenHao News -->
+    <div class="container">
+        <div class="row each_project_container">
+            <div class="col-md-1">
+            </div>
+            <div class="project_background_info col-md-5">
+                <h2>JenHao NEWS</h2>
+                <p>Enjoy real time news in your browser, tablet and smart Phone, anytime and anywhere.</p>
+
+                <ul>
+                    <li>
+                        <i class="fas fa-check"></i>Responsive website application</li>
+                    <li>
+                        <i class="fas fa-check"></i>RESTful API</li>
+                    <li>
+                        <i class="fas fa-check"></i>HTML, CSS, JavaScript, Bootstrap</li>
+                </ul>
+                <a href="https://jenhaohsiao.github.io/MyBBCNews/" target="_blank">
+                    <button>Visit</button>
+                </a>
+
+            </div>
+            <div class="col-md-6">
+                <img class="project_image" src="assets/img/projects/project_JenHaoNews.png" alt="JenHaoNews">
+            </div>
+        </div>
+    </div>
+
+    <!-- Project - SOH -->
+    <div class="container">
+        <div class="row each_project_container">
+
+            <div class="col-md-6">
+                <img class="project_image" src="assets/img/projects/project_soh.png" alt="JenHaoNews">
+            </div>
+            <div class="project_background_info col-md-5">
+
+                <h2>Augmented Reality(AR) iOS APP</h2>
+                <p>Startup Open House(SOH), use it to browse companies via List, Map or AR view based on your location. Allow location to determine your distance
+                    to participating companies. </p>
+
+                <ul>
+                    <li>
+                        <i class="fas fa-check"></i>iOS APP, Swift4</li>
+                    <li>
+                        <i class="fas fa-check"></i>MapKit, UIKit, ARkit </li>
+                </ul>
+                <a href="https://itunes.apple.com/us/app/startup-open-house/id1288850903?mt=8" target="_blank">
+                    <img class="appstore_btn" src="assets/img/download_appstore.png" alt="appstore">
+                </a>
+            </div>
+
+            <div class="col-md-1">
+                </div>
+        </div>
+    </div>
+
+
+    <div class="slideshow-container">
+
+        <div class="project_1 mySlides project_background_set">
+            <!-- project 1-->
+            <div class="container clearfix">
+                <div class="project_title ">
+                    Startup Open House(SOH)
+                </div>
+
+                <div class="project_content ">
+                    Augmented Reality (AR) iOS Navigation APP,
+                    <br/> Browse companies via List, Map or AR view based on your location.
+                    <br/> Developed with Crowdlinker Inc.
+                </div>
+
+                <div class="project_img_container ">
+                    <img class="project_img" src="assets/img/projects/SOH_logo.png" alt="SOH">
+                </div>
+
+                <div class="prject_btn_set">
+                    <button id="project_soh_Btn" type="button" class="project_btn" data-toggle="modal" data-target="#project_soh">
+                        More
+                    </button>
+
+                    <a href="https://itunes.apple.com/us/app/startup-open-house/id1288850903?mt=8" target="_blank">
+                        <img class="appstore_btn" src="assets/img/download_appstore.png" alt="appstore">
+                    </a>
+                </div>
+            </div>
+            <!-- "container clearfix end " -->
+        </div>
+        <!-- project 1 end-->
+
+        <div class="project_2 mySlides project_background_set">
+            <!-- project 2-->
+            <div class="container clearfix">
+                <div class="project_title ">
+                    Stylized Calculator iOS
+                </div>
+
+                <div class="project_content ">
+                    Change different skin for your calculator.
+                    <br/> keep records in local database
+                    <br/>
+                </div>
+
+                <div class="project_img_container ">
+                    <img class="project_img" src="assets/img/projects/SC_logo.png" alt="SOH">
+                </div>
+
+                <div class="prject_btn_set">
+                    <button id="project_sc_Btn" type="button" class="project_btn" data-toggle="modal" data-target="#project_soh">
+                        More
+                    </button>
+
+                    <a href="https://itunes.apple.com/us/app/stylized-calculator/id1249608968?mt=8" target="_blank">
+                        <img class="appstore_btn" src="assets/img/download_appstore.png" alt="appstore">
+                    </a>
+                </div>
+            </div>
+            <!-- "container clearfix end " -->
+        </div>
+        <!-- project 2 end-->
+
+        <div class="project_3 mySlides project_background_set">
+            <!-- project 3-->
+            <div class="container clearfix">
+                <div class="project_title ">
+                    Toronto Biker iOS
+                </div>
+
+                <div class="project_content ">
+                    Find out bike stations close to you,
+                    <br/> Check the number of available bike and dock.
+                    <br/> Personal project.
+                </div>
+
+                <div class="project_img_container ">
+                    <img class="project_img" src="assets/img/projects/TorontoBike_logo.png" alt="SOH">
+                </div>
+
+                <div class="prject_btn_set">
+                    <button id="project_Tbiker_Btn" type="button" class="project_btn" data-toggle="modal" data-target="#project_soh">
+                        More
+                    </button>
+
+                </div>
+            </div>
+            <!-- "container clearfix end " -->
+        </div>
+        <!-- project 3 end-->
+
+        <div class="project_1 mySlides project_background_set">
+            <!-- project 4-->
+            <div class="container clearfix">
+                <div class="project_title ">
+                    Crowdlinker website
+                </div>
+
+                <div class="project_content ">
+                    Involved front-end development with Crowdlinker Inc.
+                    <br/> Used HTML, SCSS, JavaScript, WordPress, ACF.
+                    <br/>
+                </div>
+
+                <div class="project_img_container ">
+                    <img class="project_img" src="assets/img/projects/crowdlinker_logo.png" alt="crowdlinker_logo">
+                </div>
+
+                <div class="prject_btn_set">
+                    <a href="https://crowdlinker.com/" target="_blank">
+                        <button type="button" class="project_btn">
+                            Visit Site
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <!-- "container clearfix end " -->
+        </div>
+        <!-- project 4 end-->
+
+        <div class="project_2 mySlides project_background_set">
+            <!-- project 4-->
+            <div class="container clearfix">
+                <div class="project_title ">
+                    Mercatus website
+                </div>
+
+                <div class="project_content ">
+                    Involved front-end development with Crowdlinker Inc.
+                    <br/> Used HTML, SCSS, JavaScript, WordPress, ACF
+                </div>
+
+                <div class="project_img_container ">
+                    <img class="project_img" src="assets/img/projects/mercatus_logo.jpg" alt="mercatus_logo">
+                </div>
+
+                <div class="prject_btn_set">
+                    <div class="prject_btn_set">
+                        <a href="https://www.mercatus.com/" target="_blank">
+                            <button type="button" class="project_btn">
+                                Visit Site
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- "container clearfix end " -->
+        </div>
+        <!-- project 4 end-->
+
+        <div class="project_3 mySlides project_background_set">
+            <!-- project 6-->
+            <div class="container clearfix">
+                <div class="project_title ">
+                    League website
+                </div>
+
+                <div class="project_content ">
+                    Involved web pages maintain, email template development
+                    <br/> with Crowdlinker Inc. Used HTML, CSS
+                </div>
+
+                <div class="project_img_container ">
+                    <img class="project_img" src="assets/img/projects/league_logo.png" alt="SOH">
+                </div>
+
+                <div class="prject_btn_set">
+                    <a href="https://league.com/ca/" target="_blank">
+                        <button type="button" class="project_btn">
+                            Visit Site
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <!-- "container clearfix end " -->
+        </div>
+        <!-- project 6 end-->
+
+        <a class="prev" onclick="plusSlides(-1)">
+            <i class="fas fa-arrow-alt-circle-left"></i>
+        </a>
+        <a class="next" onclick="plusSlides(1)">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+        </a>
+    </div>
+    <br>
+    <span id="Skills"></span>
+    <div class="project_dot">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <!-- Skills ======================================= -->
+    <section id="skills" data-type="background" data-speed="5">
+        <div id="skill_background">
+            <div class="container clearfix">
+                <div class="row">
+                    <div class="skill_title">
+                        <h1>SKILLS</h1>
+                    </div>
+                </div>
+
+                <div class="row" id="skills_All">
+                    <!--Skills all-->
+                    <!-- skill left side icon -->
+                    <div class="hover-cursor col-xs-6" id="icon_and_text_left" onmouseover="show_shadow_left()" onmouseout="no_shadow_left()"
+                        onclick="show_detail_left()">
+                        <img class="icon" id="skillIconLeft" src="assets/img/icon_webCoding1.png" alt="Web_Front_end">
+                        <h2 id="skill_text_left">Website Front-end
+                            <i class="fas fa-mouse-pointer"></i>
+                        </h2>
+                    </div>
+                    <!-- skill left side icon end-->
+
+                    <!-- skill right side icon -->
+                    <div class="hover-cursor col-xs-6" id="icon_and_text_right" onmouseover="show_shadow_right()" onmouseout="no_shadow_right()"
+                        onclick="show_detail_right()">
+                        <img class="icon" id="skillIconRight" src="assets/img/icon_iosCoding.png" alt="Mobile">
+                        <h2>Mobile &amp; Others
+                            <i class="fas fa-mouse-pointer"></i>
+                        </h2>
+                    </div>
+                    <!-- skill right side icon end-->
+
+                </div>
+                <!--Skills all end-->
+
+
+                <div id="skills_Left">
+                    <!--Skills left-->
+                    <!-- skill left side icon -->
+                    <div class="hover-cursor" id="icon_and_text_Left_small" onmouseover="show_shadow_left()" onmouseout="no_shadow_left()" onclick="show_detail_left()">
+                        <img class="icon" id="skillIconLeftSmall" src="assets/img/icon_webCoding1.png" alt="Web_Front_end">
+                        <h2 id="skill_text_left">Website Front-end
+                            <img class="icon_back" src="assets/img/icon_back.png" alt="back">
+                        </h2>
+                    </div>
+                    <!-- skill left side icon end-->
+
+                    <div class="row">
+                        <div class="showSkillDetail showDetailleft">
+                            <div class="col-xs-12 col-sm-6">
+                                <p>
+                                    <i class="fab fa-html5"></i> HTML5</p>
+                                <p>
+                                    <i class="fab fa-css3-alt"></i> CSS3</p>
+                                <p>
+                                    <i class="fas fa-bold"></i> Bootstrap</p>
+                                <p>
+                                    <i class="fab fa-js-square"></i> JavaScript</p>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6">
+                                <p>
+                                    <i class="fab fa-angular"></i> Angular</p>
+                                <p>
+                                    <i class="fab fa-laravel"></i> Laravel blade</p>
+                                <p>
+                                    <i class="fab fa-wordpress"></i> Wordpress</p>
+                                <p>
+                                    <i class="fas fa-plug"></i> Advanced Custom Fields</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Skills left end-->
+
+
+                <div id="skills_Right">
+                    <!--Skills right-->
+
+
+                    <!-- skill left side icon -->
+                    <div class="hover-cursor" id="icon_and_text_Right_small" onmouseover="show_shadow_right()" onmouseout="no_shadow_right()"
+                        onclick="show_detail_right()">
+                        <img class="icon" id="skillIconRightSmall" src="assets/img/icon_iosCoding.png" alt="Web_Front_end">
+                        <h2 id="skill_text_right">Mobile &amp; Others
+                            <img class="icon_back" src="assets/img/icon_back.png" alt="back">
+                        </h2>
+
+                    </div>
+                    <!-- skill right side icon end-->
+
+                    <div class="row">
+                        <div class="showSkillDetail showDetailRight">
+                            <div class="col-xs-12 col-sm-6">
+                                <p>
+                                    <i class="fab fa-apple"></i> Swift</p>
+                                <p>
+                                    <i class="fab fa-app-store"></i> Xcode</p>
+                                <p>
+                                    <i class="fas fa-coffee"></i> Java</p>
+                                <p>
+                                    <i class="fab fa-android"></i> Android</p>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6">
+                                <p>
+                                    <i class="fas fa-database"></i> SQL &amp; iOS CoreData</p>
+                                <p>
+                                    <i class="fab fa-github"></i> Github </p>
+                                <p>
+                                    <i class="fab fa-bitbucket"></i> Bitbucket &amp; SourceTree</p>
+                                <p>
+                                    <i class="fab fa-slack"></i> Slack, Jira, Zeplin &amp; Toggl </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--Skills right end-->
+
+            </div>
+            <!--container Skills all end-->
+        </div>
+        <!-- "skill_background" end -->
+    </section>
+    <span id="About"></span>
+    <!-- purposes ======================================= -->
+
+    <section id="purposes" data-type="background" data-speed="5">
+        <article>
+            <div class="container clearfix">
+                <div class="row">
+                    <p class="purposes_title">About Me
+                        <br/>
+                    </p>
+                    <p class="purposes_content">
+                        I enjoy creating things.
+                        <br/> I like working with bright and
+                        <br/> motivated people who share their passion.
+                    </p>
+
+                    <p class="purposes_title">
+                        Technology is changing the world,
+                        <br/> and I involved it.
+                        <br/> It is plain COOL.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <img class="about_img" src="assets/img/icon_coding1.png" alt="SOH">
+    </section>
+
+
+
+
+
+
+
+    <!-- Modal ======================================= -->
+
+    <div id="project_soh" class="modal">
+        <!-- project_soh_modal-->
+
+        <!-- Modal content -->
+        <div class="container modal-content">
+            <span class="close">
+                <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="project_detail">
+                <h1>Startup Open House(SOH)
+                    <br> Augmented Reality (AR) iOS Navigation APP
+                </h1>
+
+                <div class="modal_img_content">
+                    <!-- "modal_img_content" -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="modal_img" src="assets/img/projects/SOH_img1.png" alt="SOH">
+
+                        </div>
+
+                        <div class="col-sm-6">
+                            <img class="modal_img" src="assets/img/projects/SOH_img2.png" alt="SOH">
+
+                        </div>
+
+                    </div>
+                    <!-- "modal_img_content" -->
+                </div>
+
+                <p>
+                    <i class="fas fa-dot-circle"></i>Browse companies via List, Map or AR view based on your location.
+                    <br>
+                    <i class="fas fa-dot-circle"></i>Choose the company of your choice and follow directions either with Apple Maps or AR view.
+                    <br>
+                    <i class="fas fa-dot-circle"></i>Allow location to determine your distance to participating companies.
+                    <br>
+                    <i class="fas fa-dot-circle"></i>Click on participating company profiles to see their address, social media links, and company description.
+                    <br>
+
+                    <br> Developed based on: Swift4, MapKit, UIKit, ARkit
+                    <br>
+                </p>
+                <div class="copyright">
+                    <i class="fas fa-copyright"></i>
+                    The Copyright
+                    <i class="fas fa-at"></i>Crowdlinker Inc.
+                </div>
+                <br>
+
+                <a href="https://itunes.apple.com/us/app/startup-open-house/id1288850903?mt=8" target="_blank">
+                    <img class="appstore_btn" src="assets/img/download_appstore.png" alt="appstore">
+                </a>
+            </div>
+            <!-- "project_detail" end -->
+
+        </div>
+
+    </div>
+    <!-- project_soh_modal end -->
+
+    <div id="project_sc" class="modal">
+        <!-- project_sc_modal-->
+
+        <!-- Modal content -->
+        <div class="container modal-content">
+            <span id="close_modal" class="close">
+                <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="project_detail">
+                <h1>Stylized Calculator iOS
+                    <br>
+                </h1>
+
+                <div class="modal_img_content">
+                    <!-- "modal_img_content" -->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="modal_img" src="assets/img/projects/SC_img1.png" alt="SC-01">
+
+                        </div>
+
+                        <div class="col-sm-6">
+                            <img class="modal_img" src="assets/img/projects/SC_img2.png" alt="SC-02">
+
+                        </div>
+
+                    </div>
+                    <!-- "modal_img_content" -->
+                </div>
+
+                <p>
+                    <i class="fas fa-dot-circle"></i>Multiple selections of theme(skin)s.
+                    <br/>
+                    <i class="fas fa-dot-circle"></i>Keep records in database.
+                    <br/>
+                    <i class="fas fa-dot-circle"></i>Extra line for showing calculating detail.
+                    <br/>
+                    <br/> Developed based on: Swift3,CoreData, Userdefault, UIKit
+                    <br/>
+                </p>
+
+                <div class="copyright">
+                    <i class="fas fa-copyright"></i>
+                    Personal iOS project
+                </div>
+
+                <a href="https://itunes.apple.com/us/app/stylized-calculator/id1249608968?mt=8" target="_blank">
+                    <img class="appstore_btn" src="assets/img/download_appstore.png" alt="appstore">
+                </a>
+            </div>
+            <!-- "project_detail" end -->
+
+        </div>
+
+    </div>
+    <!-- project_sc_modal end -->
+
+    <div id="project_Tbiker" class="modal">
+        <!-- project_Toronto Biker_modal-->
+
+        <!-- Modal content -->
+        <div class="container modal-content">
+            <span class="close">
+                <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="project_detail">
+                <h1>Toronto Biker iOS
+                    <br>
+                </h1>
+
+                <div class="modal_img_content">
+                    <!-- "modal_img_content" -->
+
+                    <img class="modal_img" src="assets/img/projects/TorontoBike_img.png" alt="SOH">
+
+                </div>
+
+                <p>
+                    <i class="fas fa-dot-circle"></i>Find out bike stations close to you, .
+                    <br>
+                    <i class="fas fa-dot-circle"></i>Real time information. Check the number of available bike and dock.
+                    <br>
+
+                    <br> Developed based on: Swift4, MapKit, Json, City of Toronto open data API
+                    <br>
+                </p>
+                <div class="copyright">
+                    <i class="fas fa-copyright"></i>
+                    Personal iOS project
+                </div>
+                <br>
+
+            </div>
+            <!-- "project_detail" end -->
+
+        </div>
+
+    </div>
+    <!-- project_Toronto Biker_modal end -->
+    <!-- Contact ======================================= -->
+    <section id="contact" data-type="background" data-speed="5">
+        <div class="contact_style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-4 col-sm-5 col-xs-4">
+                        <a href="mailto:webmaster@example.com">
+                            <p>
+                                <i class="fas fa-envelope-square"></i>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <a href="https://github.com/Jenhaohsiao" target="_blank">
+                            <p>
+                                <i class="fab fa-github-square"></i>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-5 col-xs-4">
+                        <a href="https://www.linkedin.com/in/jenhao-hsiao-10aa36b0/" target="_blank">
+                            <p>
+                                <i class="fab fa-linkedin"></i>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-md-1"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer ======================================= -->
+    <div class="footer">
+        <div class="container ">
+            <p>© 2018 Jen-Hao Hsiao</p>
+        </div>
+    </div>
+
+    <!-- JavaScript ======================================= -->
+
+    <script src="assets/js/custom.js"></script>
+    <!-- <script src="assets/js/heroImage.js"></script> -->
+    <script src="assets/js/heroImageSize.js"></script>
+    <script src="assets/js/NavBar.js"></script>
+    <script src="assets/js/particles/particles.js"></script>
+    <script src="assets/js/particles/app.js"></script>
+    <script src="assets/js/particles/stats.js"></script>
+
+</body>
+
+</html>
